@@ -1,6 +1,6 @@
 import importlib
-moduleName = input('Stream.py')
-importlib.import_module(moduleName)
+moduleName = input('Enter module name:')
+importlib.import_module(Stream)
 import sys
 import os
 import time
